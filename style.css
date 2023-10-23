@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    padding: 3%;
+    background-color: #b9bbce;
+    font-family: '@import';
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+header ul :hover{
+    background: #b41212;
+    cursor: pointer;
+}
+.menu{
+    list-style: none;
+}
+ul li a{
+    color: rgb(27, 17, 88);
+    font-family: 'Roboto+Cond', cursive;
+    text-decoration: none;
+}
+.texto h1{
+    justify-content: center;
+    font-size: 130%;
+    font-family: 'Roboto+Conde', cursive;
+    color:rgb(14, 7, 78);
+    align-items: center;
+    display: flex;
+}
+.texto h3{
+    font-family: 'Roboto+Cond';
+    color: rgb(48, 22, 119);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.horarios h2{
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto+Cond', cursive;
+    color: rgb(16, 18, 148);
+    padding: 5px;
+}
+.horarios ul li{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 3px;
+    text-align: left;
+    border: solid;
+    border-radius: 30px;
+    padding: 2px;
+}
+.mapa{
+    width: 35rem;
+    overflow: hidden;
+    height: 20rem;
+    width: 100%;
+    height: 315px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+}
+.rodape{
+    display: flex;
+    align-items: center;
+    font-size: small;
+    justify-content: center;
+}
